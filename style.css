@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4; /* Fallback color in case the image is unavailable */
+    background-image: url('bg.jpg'); /* Replace 'background-image.jpg' with your image file */
+    background-size: cover; /* Ensure the background image covers the entire screen */
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for better readability */
+    padding: 40px; /* Increase padding to increase box size */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 450px; /* Increase width to increase box size */
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+#task-list {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between; /* Adjusted to ensure buttons are on the same line */
+    align-items: center;
+    padding: 20px; /* Increase padding to increase box size */
+    border-bottom: 1px solid #4caf50;
+}
+
+.task input {
+    margin-bottom: 10px;
+}
+
+.edit-button {
+    background-color: yellow; /* Customize the color for the Edit button */
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.edit-button:hover {
+    background-color: #ffd700; /* Lighter yellow on hover */
+}
+
+.delete-button {
+    background-color: red; /* Customize the color for the Delete button */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.delete-button:hover {
+    background-color: #ff6347; /* Lighter red on hover */
+}
